@@ -16,7 +16,7 @@ const datos = [
     codigoEntorno: '19NR',
     codigoReparacion: '51',
     categoria: '1B',
-    mayor: '50',
+    mayor: 'IB',
     menor: 'XB',
     description: 'Other See Comments',
     comentario: 'Si es reporte de FLM se cierra CHGF'
@@ -27,8 +27,8 @@ const datos = [
     codigoEntorno: '19KI',
     codigoReparacion: '34',
     categoria: '1B',
-    mayor: '50',
-    menor: '1O',
+    mayor: 'CH',
+    menor: 'CF',
     description: 'Electronic Journal Full',
     comentario: 'Si es reporte de FLM se cierra CHGF y si es de segunda linea se cierra CHGC'
   },
@@ -39,12 +39,12 @@ const datos = [
     codigoReparacion: '59',
     categoria: '1B',
     mayor: 'ED',
-    menor: 'SI',
+    menor: 'EX',
     description: 'Des Keys Request',
     comentario: 'Si es reporte de FLM se cierra CHGF y si es de segunda linea se cierra CHGC'
   },
   {
-    causalidad: 'Cliente solicita Autenticar dispensador x Cambio Software',
+    causalidad: 'Cliente solicita Autenticar dispensador por Cambio Software',
     tipoSR: 'CHGC',
     codigoEntorno: '19KP',
     codigoReparacion: '51',
@@ -61,7 +61,7 @@ const datos = [
     codigoReparacion: '51',
     categoria: '1B',
     mayor: '36',
-    menor: 'ZU',
+    menor: 'W3',
     description: 'Bad/No Power or ATM',
     comentario: 'Si es reporte de FLM se cierra CHGF y si es de segunda linea se cierra CHGC'
   },
@@ -71,8 +71,8 @@ const datos = [
     codigoEntorno: '19NR',
     codigoReparacion: '51',
     categoria: '1B',
-    mayor: '50',
-    menor: 'XB',
+    mayor: '36',
+    menor: 'LH',
     description: 'Other See Comments',
     comentario: 'Si es reporte de FLM se cierra CHGF y si es de segunda linea se cierra CHGC'
   },
@@ -82,7 +82,7 @@ const datos = [
     codigoEntorno: '19K4',
     codigoReparacion: '51',
     categoria: '1B',
-    mayor: 'ND',
+    mayor: 'CD',
     menor: 'J7',
     description: 'Bad/No Power or ATM',
     comentario: 'Si es reporte de FLM se cierra CHGF y si es de segunda linea se cierra CHGC'
@@ -104,10 +104,10 @@ const datos = [
     codigoEntorno: '19K7',
     codigoReparacion: '03',
     categoria: '1B',
-    mayor: '',
-    menor: '',
+    mayor: 'XX',
+    menor: 'XX',
     description: 'Dispense Cash Quality / Load',
-    comentario: ''
+    comentario: 'XX - Depende del dispositivo en falla'
   },
   {
     causalidad: 'Error Operativo - Dispositivo interno desconectado',
@@ -137,8 +137,8 @@ const datos = [
     codigoEntorno: '19K5',
     codigoReparacion: '59',
     categoria: '1B',
-    mayor: '74',
-    menor: 'Q2',
+    mayor: 'ND',
+    menor: 'CC',
     description: 'Cash Out / Cash Low',
     comentario: ' '
   },
@@ -148,8 +148,8 @@ const datos = [
     codigoEntorno: '19KE',
     codigoReparacion: '59',
     categoria: '1B',
-    mayor: 'ND',
-    menor: 'BL',
+    mayor: '2C',
+    menor: 'Q3',
     description: 'Check / Cash / Purge Bin Full',
     comentario: ' '
   },
@@ -162,17 +162,6 @@ const datos = [
     mayor: 'PN',
     menor: 'D4',
     description: 'Customer Wiring',
-    comentario: 'Si es reporte de FLM se cierra CHGF y si es de segunda linea se cierra CHGC'
-  },
-  {
-    causalidad: 'Error Operativo - No hay ATM en sitio',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19NR',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: '50',
-    menor: 'XB',
-    description: 'Other See Comments',
     comentario: 'Si es reporte de FLM se cierra CHGF y si es de segunda linea se cierra CHGC'
   },
   {
@@ -237,7 +226,7 @@ const datos = [
     codigoReparacion: '51',
     categoria: '1B',
     mayor: '36',
-    menor: 'W3',
+    menor: 'F0',
     description: 'Cabinet Left Unsecured',
     comentario: 'Si es reporte de FLM se cierra CHGF y si es de segunda linea se cierra CHGC'
   },
@@ -250,7 +239,7 @@ const datos = [
     mayor: 'SD',
     menor: 'TJ',
     description: 'Deposited Cash Poor Quality',
-    comentario: ' '
+    comentario: ''
   },
   {
     causalidad: 'Gaveta dañada por manipulacion generando fallas',
@@ -303,7 +292,7 @@ const datos = [
     codigoReparacion: '51',
     categoria: '1B',
     mayor: '36',
-    menor: 'W3',
+    menor: 'ZQ',
     description: 'Temperature / Humidity',
     comentario: 'Si es reporte de FLM se cierra CHGF y si es de segunda linea se cierra CHGC'
   },
@@ -313,8 +302,8 @@ const datos = [
     codigoEntorno: '19KT',
     codigoReparacion: '11',
     categoria: '1B',
-    mayor: 'XX',
-    menor: 'XX',
+    mayor: '36',
+    menor: 'ZQ',
     description: 'Temperature / Humidity',
     comentario: ' '
   },
@@ -412,8 +401,8 @@ const datos = [
     codigoEntorno: '19NR',
     codigoReparacion: '51',
     categoria: '1B',
-    mayor: '50',
-    menor: 'XB',
+    mayor: 'CH',
+    menor: 'X1',
     description: 'Other See Comments',
     comentario: ' '
   },
@@ -448,7 +437,7 @@ const datos = [
     mayor: 'XX',
     menor: 'XX',
     description: 'Damage/Vandalism/Tampering',
-    comentario: ' '
+    comentario: 'XX - Depende del dispositivo en falla'
   },
   {
     causalidad: 'Vandalismo Mayor Impresora cambio de parte por manipulacion',
@@ -457,7 +446,7 @@ const datos = [
     codigoReparacion: '11',
     categoria: '1B',
     mayor: '7C',
-    menor: 'S5',
+    menor: 'YH',
     description: 'Damage/Vandalism/Tampering',
     comentario: ' '
   },
@@ -467,8 +456,8 @@ const datos = [
     codigoEntorno: '19NP',
     codigoReparacion: '48',
     categoria: '1B',
-    mayor: '72',
-    menor: 'YC',
+    mayor: 'CR',
+    menor: 'Y1',
     description: 'Damage/Vandalism/Tampering',
     comentario: ' '
   },
@@ -481,7 +470,7 @@ const datos = [
     mayor: 'XX',
     menor: 'XX',
     description: 'Damage/Vandalism/Tampering',
-    comentario: ' '
+    comentario: 'XX - Depende del dispositivo en falla'
   },
   {
     causalidad: 'Vandalismo Menor "PARA SANTANDER"',
@@ -492,7 +481,7 @@ const datos = [
     mayor: 'XX',
     menor: 'XX',
     description: 'Damage/Vandalism/Tampering',
-    comentario: ' '
+    comentario: 'XX - Depende del dispositivo en falla'
   },
 ];
 
