@@ -13,11 +13,11 @@ const datos = [
   {
     causalidad: 'Reseteo ATM',
     tipoSR: 'CHGC',
-    codigoEntorno: '19NR',
+    codigoEntorno: '19NP',
     codigoReparacion: '51',
     categoria: '1B',
-    mayor: 'IB',
-    menor: 'XB',
+    mayor: 'CH',
+    menor: 'X1',
     description: 'Other See Comments',
     comentario: 'Si es reporte de FLM se cierra CHGF'
   },
